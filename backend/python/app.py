@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
+
 from db_utils import load_movies, add_movie, update_movie
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/api/movies", methods=["GET"])
 def get_movies():
