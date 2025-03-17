@@ -29,7 +29,6 @@ For the Frontend part of this assignment, Use **React with TypeScript** (no exte
 - Implement the logic for marking a movie as watched.
 
 
-
 ### **Backend Requirements**
 #### 1. implement the GET endpoint
 - Implement a GET endpoint to fetch a list of movies from the server.
@@ -40,6 +39,7 @@ For the Frontend part of this assignment, Use **React with TypeScript** (no exte
 ---
 
 ## 🚀 Getting Started
+For your convenience, we have prepared a template to help you get started.
 ### **Frontend Setup**
 ```sh
 cd frontend
