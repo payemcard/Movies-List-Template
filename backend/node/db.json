@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Inception",
+    "thumbnail": "https://image-link.com/inception.jpg",
+    "rating": 8.8,
+    "genre": "Sci-Fi",
+    "watched": false,
+    "imdb_url": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "id": 2,
+    "name": "The Dark Knight",
+    "thumbnail": "https://image-link.com/dark_knight.jpg",
+    "rating": 9.0,
+    "genre": "Action",
+    "watched": true,
+    "imdb_url": "https://www.imdb.com/title/tt0468569/"
+  },
+  {
+    "id": 3,
+    "name": "Interstellar",
+    "thumbnail": "https://image-link.com/interstellar.jpg",
+    "rating": 8.6,
+    "genre": "Sci-Fi",
+    "watched": false,
+    "imdb_url": "https://www.imdb.com/title/tt0816692/"
+  },
+  {
+    "id": 4,
+    "name": "Pulp Fiction",
+    "thumbnail": "https://image-link.com/pulp_fiction.jpg",
+    "rating": 8.9,
+    "genre": "Crime",
+    "watched": true,
+    "imdb_url": "https://www.imdb.com/title/tt0110912/"
+  },
+  {
+    "id": 5,
+    "name": "The Matrix",
+    "thumbnail": "https://image-link.com/matrix.jpg",
+    "rating": 8.7,
+    "genre": "Sci-Fi",
+    "watched": false,
+    "imdb_url": "https://www.imdb.com/title/tt0133093/"
+  },
+  {
+    "id": 6,
+    "name": "The Godfather",
+    "thumbnail": "https://image-link.com/godfather.jpg",
+    "rating": 9.2,
+    "genre": "Crime",
+    "watched": true,
+    "imdb_url": "https://www.imdb.com/title/tt0068646/"
+  },
+  {
+    "id": 7,
+    "name": "Fight Club",
+    "thumbnail": "https://image-link.com/fight_club.jpg",
+    "rating": 8.8,
+    "genre": "Drama",
+    "watched": false,
+    "imdb_url": "https://www.imdb.com/title/tt0137523/"
+  },
+  {
+    "id": 8,
+    "name": "Forrest Gump",
+    "thumbnail": "https://image-link.com/forrest_gump.jpg",
+    "rating": 8.8,
+    "genre": "Drama",
+    "watched": true,
+    "imdb_url": "https://www.imdb.com/title/tt0109830/"
+  },
+  {
+    "id": 9,
+    "name": "The Shawshank Redemption",
+    "thumbnail": "https://image-link.com/shawshank.jpg",
+    "rating": 9.3,
+    "genre": "Drama",
+    "watched": false,
+    "imdb_url": "https://www.imdb.com/title/tt0111161/"
+  },
+  {
+    "id": 10,
+    "name": "Gladiator",
+    "thumbnail": "https://image-link.com/gladiator.jpg",
+    "rating": 8.5,
+    "genre": "Action",
+    "watched": true,
+    "imdb_url": "https://www.imdb.com/title/tt0172495/"
+  }
+]
