@@ -9,14 +9,6 @@ function saveMovies(movies) {
     fs.writeFileSync(dbPath, JSON.stringify(movies, null, 4));
 }
 
-function addMovie(movie) {
-    const movies = loadMovies();
-    movie.id = Math.max(...movies.map(m => m.id)) + 1;
-    movies.push(movie);
-    saveMovies(movies);
-    return movie;
-}
-
 function updateMovie(movieId, updatedData) {
     let movies = loadMovies();
     let movie = movies.find(m => m.id === movieId);
@@ -28,4 +20,4 @@ function updateMovie(movieId, updatedData) {
     return null;
 }
 
-module.exports = { loadMovies, addMovie, updateMovie };
+module.exports = { loadMovies, updateMovie };
