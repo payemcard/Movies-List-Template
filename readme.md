@@ -9,26 +9,33 @@ Welcome to the PayEm Home Assignment! We're thrilled to have you here. This assi
 
 ## The Task
 ### **Frontend Requirements**
-1. **Fetch and display a list of movies** with the following details:
-   - Movie **name**
-   - Movie **thumbnail** (image)
-   - Movie **rating**
-   - **Genre**
-   - **Indicator if the user has watched the movie**
-   - **Link to IMDb** page (opens in a new tab)
-2. Movies should be displayed in a **grid layout**.
-3. Users should be able to **mark a movie as watched**, and the UI should reflect this status.
-4. Use **React with TypeScript** (no external state management required).
-5. The UI should follow the **provided Figma design**.
+
+#### 1. Display a list of movies
+- Fetch and display a list of movies with the following details:
+  - Movie **name**
+  - Movie **thumbnail** (image)
+
+#### 2. Display movie details
+- When a movie is clicked, display the following details:
+  - Movie **name**
+  - Movie **thumbnail** (image)
+  - Movie **rating**
+  - **Genre**
+  - **Indicator if the user has watched the movie**
+  - **Link to IMDb** page (opens in a new tab)
+
+#### 3. Implement marking a movie as watched
+- Implement the logic for marking a movie as watched.
+
+Use **React with TypeScript** (no external state management required).
+The UI should follow the **provided Figma design**.
 
 ### **Backend Requirements**
-- Implement the backend in either **Python (Flask)** or **Node.js (Express)**.
-- Use `db.json` as a local database (read/write operations required).
-- Provide API endpoints for:
-  1. **GET** `/api/movies` → Fetch all movies.
-  2. **POST** `/api/movies` → Add a new movie. (**To be implemented**)
-  3. **PUT** `/api/movies/:id` → Update an existing movie. (**To be implemented**)
-- Use `fs` module (Node.js) or `json` module (Python) for reading/writing `db.json`.
+#### 1. implement the GET endpoint
+- Implement a GET endpoint to fetch a list of movies from the server.
+
+#### 2. Implement the PUT endpoint
+- Implement a PUT endpoint to update the `watched` status of a movie.
 
 ---
 
@@ -55,3 +62,7 @@ node server.js
 ```
 
 🚀 **Good luck!**
+
+---
+
+If you have any questions or need further clarification, feel free to reach out to yoava@payemcard.com. We look forward to seeing your solution!
