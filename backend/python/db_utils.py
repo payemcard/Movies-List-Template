@@ -5,5 +5,4 @@ def load_movies():
         return json.load(file)
 
 def save_movies(movies):
-    with open("db.json", "w") as file:
-        json.dump(movies, file, indent=4)
+    pass
