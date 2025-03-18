@@ -29,7 +29,7 @@ app.get("/api/movies/:id", (req, res) => {
 
 
 app.put('/api/movies/:id', (req, res) => {
-    res.status(200).send("PUT request received. Implement logic here.");
+    res.status(200).send("PUT request received. Implement logic here, ensuring that the watched status of the movie is updated.");
 });
 
 app.listen(5000, () => console.log('Server running on port 5000'));
