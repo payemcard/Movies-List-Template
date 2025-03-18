@@ -65,10 +65,12 @@ node server.js
 ```
 
 ## What Are We Looking for in the Solution?
+#### Frontend: ####
 - **Readability:** Ensure that your code is readable and follows best practices.
 - **Performance:** Optimize your code for performance.
 - **Scalability:** Design your solution to be scalable.
-
+#### Backend: ####
+- **Correctness:** The code should fulfill the requirements and work as expected, we will not be evaluating best coding practices or performance.
 
 ## 🚀 **Good luck!**
 
