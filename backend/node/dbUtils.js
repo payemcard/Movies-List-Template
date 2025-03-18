@@ -5,4 +5,4 @@ function loadMovies() {
     return JSON.parse(fs.readFileSync(dbPath));
 }
 
-module.exports = { loadMovies, updateMovie };
+module.exports = { loadMovies };
