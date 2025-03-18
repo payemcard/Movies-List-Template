@@ -71,9 +71,8 @@ node server.js
 - **Scalability:** Design your solution to be scalable.
 #### Backend: ####
 - **Correctness:** The code should fulfill the requirements and work as expected, we will not be evaluating best coding practices or performance.
-
-## 🚀 **Good luck!**
-
 ---
 
 If you have any questions or need further clarification, feel free to reach out to yoava@payemcard.com. We look forward to seeing your solution!
+
+## 🚀 **Good luck!**
