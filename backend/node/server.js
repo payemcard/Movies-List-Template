@@ -1,5 +1,5 @@
 const express = require('express');
-const { loadMovies, updateMovie } = require('./dbUtils');
+const { loadMovies } = require('./dbUtils');
 
 const app = express();
 app.use(express.json());

@@ -41,7 +41,7 @@ For the Frontend part of this assignment, Use **React with TypeScript** (no exte
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 For your convenience, we have prepared a template to help you get started.
 ### **Frontend Setup**
 ```sh
@@ -64,7 +64,13 @@ npm install
 node server.js
 ```
 
-🚀 **Good luck!**
+## What Are We Looking for in the Solution?
+- **Readability:** Ensure that your code is readable and follows best practices.
+- **Performance:** Optimize your code for performance.
+- **Scalability:** Design your solution to be scalable.
+
+
+## 🚀 **Good luck!**
 
 ---
 
