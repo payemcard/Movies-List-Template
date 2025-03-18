@@ -30,8 +30,11 @@ For the Frontend part of this assignment, Use **React with TypeScript** (no exte
 
 
 ### **Backend Requirements**
-#### 1. implement the GET endpoint
-- Implement a GET endpoint to fetch a list of movies from the server.
+
+#### 1. Pre-Implemented Endpoints
+- The following endpoints are already implemented:
+  - **GET** `/api/movies` - Fetches a list of movies
+  - **GET** `api/movies/:id` - Fetches a single movie by its ID
 
 #### 2. Implement the PUT endpoint
 - Implement a PUT endpoint to update the `watched` status of a movie.
