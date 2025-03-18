@@ -54,7 +54,7 @@ npm start
 #### **Python (Flask)**
 ```sh
 cd backend/python
-pip install flask
+pip install -r requirements.txt
 python app.py
 ```
 #### **Node.js (Express)**
