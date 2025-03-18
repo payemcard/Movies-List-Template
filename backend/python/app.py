@@ -8,7 +8,24 @@ CORS(app)
 
 @app.route("/api/movies", methods=["GET"])
 def get_movies():
-    pass
+    try:
+        movies = load_movies()
+        return jsonify(movies)
+    except Exception:
+        return jsonify({"error": "Internal Server Error"}), 500
+
+
+@app.route("/api/movies/<int:movie_id>", methods=["GET"])
+def get_movie(movie_id):
+    try:
+        movies = load_movies()
+        movie = next((m for m in movies if m["id"] == movie_id), None)
+        if not movie:
+            return jsonify({"error": "Movie not found"}), 404
+        return jsonify(movie)
+    except Exception:
+        return jsonify({"error": "Internal Server Error"}), 500
+
 
 @app.route("/api/movies/<int:movie_id>", methods=["PUT"])
 def update_movie(movie_id):
