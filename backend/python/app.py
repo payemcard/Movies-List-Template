@@ -29,6 +29,7 @@ def get_movie(movie_id):
 
 @app.route("/api/movies/<int:movie_id>", methods=["PUT"])
 def update_movie(movie_id):
+    # PUT request received. Implement logic here, ensuring that the watched status of the movie is updated.
     pass
 
 if __name__ == "__main__":
